@@ -1,0 +1,15 @@
+1.Checked all the columns headers.
+2.checked all columns Data types.
+3.Checked for Null values in all the columns.
+4.In the service column, replacing the '_' sign with ' '.
+5. A New table, "Date_Table" is created using DAX.
+6. In All_User table Column "User_ID" must contains Non-Null and Non-Duplicate values. 
+   So, Removed blank rows and Duplicate rows.
+7. In Model view, "User_ID" from both tables i.e. "All_Users" and "All_Transactions" are mapped,
+   with Cardinality "One-to-Many.
+8 Column "Date" from both tables i.e. "Date_Table" and "All_Transactions" are mapped,
+   with Cardinality "One_to-Many".
+9. Before Visualization, we created some important Measure (KPIs).
+10. All the derived measures are kept in separate table named "Measures" So that we don't need to find them each time.
+11. Created a column "Age Segment" in All_users table.
+12. 
